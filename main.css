@@ -1,0 +1,31 @@
+img {
+  display: block;
+  width: 100%;
+}
+
+audio {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: #999;
+  border: none;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #bbb;
+}
+
+main {
+  max-width: 600px;
+  padding: 0 20px;
+  margin: 50px auto;
+}
+
