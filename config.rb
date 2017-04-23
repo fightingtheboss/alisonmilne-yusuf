@@ -44,7 +44,8 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
+configure :build do
+  set :http_prefix, '/audio-test'
 #   activate :minify_css
 #   activate :minify_javascript
-# end
+end
