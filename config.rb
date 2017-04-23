@@ -7,6 +7,8 @@ end
 
 activate :livereload
 
+set :build_dir, 'docs'
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
