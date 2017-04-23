@@ -107,7 +107,7 @@ main header {
 
 main header h1 {
   font-weight: 300;
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.25em 0;
 }
 
 main header::after {
@@ -121,6 +121,7 @@ main header::after {
 
 main section {
   padding: 20px;
+  margin: 50px 0;
 }
 
 footer {
