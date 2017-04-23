@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= "#{current_page.data.title} | Alison Milne" || "Alison Milne" %></title>
+    <%= stylesheet_link_tag "vendor/font-awesome.min" %>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+  </head>
+  <body>
+    <header id="site-header">
+      <%= image_tag "logo.svg" %>
+      <h1>
+        <%= image_tag "wordmark.svg" %>
+        <small>Art Gallery</small>
+      </h1>
+    </header>
+
+    <div class="with-fixed-header">
+      <main>
+        <header>
+          <h1><%= current_page.data.title %></h1>
+        </header>
+        <section id="content">
+          <%= yield %>
+        </section>
+      </main>
+
+      <footer>
+        <h6>Get In Touch</h6>
+        <ul>
+          <li><a href="https://facebook.com/alisonmilnedesign"><i class="fa fa-facebook-official"></i></a></li>
+          <li><a href="https://instagram.com/alisonmilnedesign"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/AMilneGallery"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.pinterest.com/alisonmilne1"><i class="fa fa-pinterest-p"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>

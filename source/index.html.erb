@@ -1,0 +1,9 @@
+---
+title: Art Gallery
+---
+
+<%= image_tag "slap.gif" %>
+<% content_tag :audio, :controls => "true", :src => "audio/shapeshifter.mp3" do %>
+  Your browser does not support <code>audio</code> elements
+<% end %>
+<button onclick="togglePlay()">I trigger play/pause with JS</button>
