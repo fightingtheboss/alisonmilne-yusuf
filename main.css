@@ -32,7 +32,8 @@ audio {
 
 button {
   width: 100%;
-  background-color: #999;
+  background-color: #1EC7A2;
+  color: #fafafa;
   border: none;
   padding: 20px;
   margin-top: 10px;
@@ -41,7 +42,8 @@ button {
 }
 
 button:hover {
-  background-color: #bbb;
+  background-color: #2ED7B2;
+  cursor: pointer;
 }
 
 #site-header {
