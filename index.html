@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Audio Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art Gallery | Alison Milne Design + Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <main>
-    <img src="assets/slap.gif">
-    <audio src="assets/shapeshifter.mp3" controls="controls">Your browser does not support <code>audio</code> elements</audio>
-    <button onclick="togglePlay()">I trigger play/pause with JS</button>
+  <header id="site-header">
+    <img id="logo" src="assets/logo.svg" alt="Alison Milne Logo">
+    <h1>
+      <img src="assets/wordmark.svg" alt="Alison Milne Wordmark">
+      <small>Art Gallery</small>
+    </h1>
+  </header>
+
+  <main class="with-fixed-header">
+    <header>
+      <h1>Art Gallery</h1>
+    </header>
+    <section id="content">
+      <img src="assets/slap.gif">
+      <audio src="assets/shapeshifter.mp3" controls="controls">Your browser does not support <code>audio</code> elements</audio>
+      <button onclick="togglePlay()">I trigger play/pause with JS</button>
+    </section>
   </main>
 
   <script src="main.js"></script>
