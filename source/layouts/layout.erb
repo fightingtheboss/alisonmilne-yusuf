@@ -23,7 +23,7 @@
     <div class="with-fixed-header">
       <main>
         <header>
-          <h1><%= current_page.data.title %></h1>
+          <h1><%= current_page.data.title || image.title %></h1>
         </header>
         <section id="content">
           <%= yield %>

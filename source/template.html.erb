@@ -1,11 +1,6 @@
----
-title: Art Gallery
----
-
 <div class="image-block">
-  <%= image_tag image.image %>
+  <%= image_tag image.image, onclick: "togglePlay()" %>
   <% content_tag :audio, :controls => "true", :src => "audio/#{image.audio}" do %>
     Your browser does not support <code>audio</code> elements
   <% end %>
-  <button onclick="togglePlay()">I trigger play/pause with JS</button>
 </div>

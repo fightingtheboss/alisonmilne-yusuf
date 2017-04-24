@@ -29,25 +29,8 @@ img {
 }
 
 audio {
-  margin-top: 10px;
   display: block;
   width: 100%;
-}
-
-button {
-  width: 100%;
-  background-color: #1EC7A2;
-  color: #fafafa;
-  border: none;
-  padding: 20px;
-  margin-top: 10px;
-  font-size: 18px;
-  border-radius: 4px;
-}
-
-button:hover {
-  background-color: #2ED7B2;
-  cursor: pointer;
 }
 
 #site-header {
@@ -106,7 +89,7 @@ main {
 }
 
 main header {
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
   font-size: 2em;
 }
@@ -170,6 +153,10 @@ footer a {
   text-decoration: none;
 }
 
+footer a:hover {
+  color: mix(black, #1EC7A2, 20%);
+}
+
 @media (max-width: 860px) {
   #site-header h1 {
     width: 100%;
@@ -191,11 +178,15 @@ footer a {
 }
 
 .image-block {
-  width: 600px;
+  max-width: 800px;
   margin: auto;
 }
 
 .image-block img {
   width: 100%;
   margin: 0;
+}
+
+.image-block img:hover {
+  cursor: pointer;
 }
