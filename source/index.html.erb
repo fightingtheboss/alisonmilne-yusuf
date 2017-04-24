@@ -2,8 +2,6 @@
 title: Art Gallery
 ---
 
-<%= image_tag "slap.gif" %>
-<% content_tag :audio, :controls => "true", :src => "audio/shapeshifter.mp3" do %>
-  Your browser does not support <code>audio</code> elements
+<% data.images.each do |i| %>
+  <%= image_tag i.image %>
 <% end %>
-<button onclick="togglePlay()">I trigger play/pause with JS</button>
