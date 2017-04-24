@@ -1,12 +1,8 @@
 [
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"},
-  { "image" : "slap.gif", "audio" : "shapeshifter.mp3"}
+  { "image" : "slap.gif", "audio" : "shapeshifter.mp3", "url" : "slap1"},
+  { "image" : "slap.gif", "audio" : "shapeshifter.mp3", "url" : "slap2"},
+  { "image" : "slap.gif", "audio" : "shapeshifter.mp3", "url" : "slap3"},
+  { "image" : "slap.gif", "audio" : "shapeshifter.mp3", "url" : "slap4"},
+  { "image" : "slap.gif", "audio" : "shapeshifter.mp3", "url" : "slap5"},
+  { "image" : "slap.gif", "audio" : "shapeshifter.mp3", "url" : "slap6"}
 ]

@@ -11,11 +11,13 @@
   </head>
   <body>
     <header id="site-header">
-      <%= image_tag "logo.svg" %>
-      <h1>
-        <%= image_tag "wordmark.svg" %>
-        <small>Art Gallery</small>
-      </h1>
+      <%= link_to(image_tag("logo.svg"), "/") %>
+      <% link_to "/" do %>
+        <h1>
+          <%= image_tag "wordmark.svg" %>
+          <small>Art Gallery</small>
+        </h1>
+      <% end %>
     </header>
 
     <div class="with-fixed-header">

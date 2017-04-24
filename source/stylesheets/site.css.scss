@@ -60,11 +60,16 @@ button:hover {
   box-sizing: border-box;
 }
 
-header > img {
+header > a > img {
   height: 2rem;
   width: 2rem;
   display: none;
   position: absolute;
+}
+
+#site-header a {
+  text-decoration: none;
+  color: #333;
 }
 
 #site-header h1 {
@@ -174,13 +179,23 @@ footer a {
     margin: 0 auto;
   }
 
-  header > img {
+  header > a > img {
     display: block;
   }
 }
 
 @media (max-width: 300px) {
-  header > img {
+  header > a > img {
     display: none;
   }
+}
+
+.image-block {
+  width: 600px;
+  margin: auto;
+}
+
+.image-block img {
+  width: 100%;
+  margin: 0;
 }

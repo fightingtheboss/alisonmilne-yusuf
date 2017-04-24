@@ -22,7 +22,9 @@ page '/*.txt', layout: false
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
-
+data.images.each do |i|
+  proxy "/#{i.url}.html", "template.html", locals: { image: i }
+end
 # proxy(
 #   '/this-page-has-no-template.html',
 #   '/template-file.html',
@@ -46,6 +48,7 @@ page '/*.txt', layout: false
 
 configure :build do
   set :http_prefix, '/audio-test'
+  ignore '/template.html'
 #   activate :minify_css
 #   activate :minify_javascript
 end

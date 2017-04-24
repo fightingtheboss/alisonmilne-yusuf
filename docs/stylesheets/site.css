@@ -50,11 +50,15 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.95);
   box-sizing: border-box; }
 
-header > img {
+header > a > img {
   height: 2rem;
   width: 2rem;
   display: none;
   position: absolute; }
+
+#site-header a {
+  text-decoration: none;
+  color: #333; }
 
 #site-header h1 {
   margin: 0;
@@ -152,8 +156,15 @@ footer a {
   #site-header img {
     margin: 0 auto; }
 
-  header > img {
+  header > a > img {
     display: block; } }
 @media (max-width: 300px) {
-  header > img {
+  header > a > img {
     display: none; } }
+.image-block {
+  width: 600px;
+  margin: auto; }
+
+.image-block img {
+  width: 100%;
+  margin: 0; }
