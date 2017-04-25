@@ -11,10 +11,10 @@
   </head>
   <body>
     <header id="site-header">
-      <%= link_to(image_tag("logo.svg"), "/index.html") %>
+      <%= link_to(image_tag("logo.svg", id: 'logo-image'), "/index.html") %>
       <% link_to "/index.html" do %>
         <h1>
-          <%= image_tag "wordmark.svg" %>
+          <%= image_tag "wordmark.svg", id: 'wordmark-image' %>
           <small>Art Gallery</small>
         </h1>
       <% end %>
@@ -22,7 +22,7 @@
 
     <div class="with-fixed-header">
       <main>
-        <header>
+        <header id="title-header">
           <h1><%= current_page.data.title || image.title %></h1>
         </header>
         <section id="content">

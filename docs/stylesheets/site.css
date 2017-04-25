@@ -30,14 +30,15 @@ audio {
   top: 0;
   left: 0;
   width: 100%;
+  height: 44px;
   position: fixed;
-  padding: 1rem;
+  padding: 1em;
   background-color: rgba(255, 255, 255, 0.95);
   box-sizing: border-box; }
 
-header > a > img {
-  height: 2rem;
-  width: 2rem;
+#logo-image {
+  height: 2em;
+  width: 2em;
   display: none;
   position: absolute; }
 
@@ -46,12 +47,14 @@ header > a > img {
   color: #333; }
 
 #site-header h1 {
+  top: 0;
   margin: 0;
+  padding: 0.25rem;
   text-align: center;
   width: 140px;
   line-height: 0; }
 
-#site-header h1 img {
+#wordmark-image {
   width: 140px; }
 
 #site-header small {
@@ -76,16 +79,16 @@ main {
   -ms-flex: 1;
       flex: 1; }
 
-main header {
+#title-header {
   margin-top: 50px;
   text-align: center;
-  font-size: 2em; }
+  font-size: 1.5em; }
 
-main header h1 {
+#title-header h1 {
   font-weight: 300;
   margin: 0 0 0.25em 0; }
 
-main header::after {
+#title-header::after {
   content: "";
   border-bottom: 3px solid #E0E0E0;
   width: 10%;
@@ -93,7 +96,7 @@ main header::after {
   left: 50%;
   transform: translateX(-50%); }
 
-main section {
+#content {
   padding: 20px;
   margin: 50px 0;
   display: -ms-flexbox;
@@ -103,10 +106,21 @@ main section {
   -ms-flex-pack: center;
       justify-content: center; }
 
-main section img {
+#content img {
   display: inline-block;
   width: auto;
   margin: 5px; }
+
+.image-block {
+  max-width: 800px;
+  margin: auto; }
+
+.image-block img {
+  width: 100%;
+  margin: 0; }
+
+.image-block img:hover {
+  cursor: pointer; }
 
 footer {
   background-color: #fafafa;
@@ -138,24 +152,24 @@ footer a:hover {
   color: #189f82; }
 
 @media (max-width: 860px) {
-  #site-header h1 {
-    width: 100%; }
+  #site-header {
+    padding: 0.5rem; }
 
-  #site-header img {
+  #site-header h1 {
+    width: 100%;
+    left: 0;
+    position: absolute; }
+
+  #wordmark-image {
     margin: 0 auto; }
 
-  header > a > img {
-    display: block; } }
+  #logo-image {
+    display: block;
+    top: 50%;
+    transform: translateY(-50%); }
+
+  main header {
+    font-size: 1em; } }
 @media (max-width: 300px) {
-  header > a > img {
+  #logo-image {
     display: none; } }
-.image-block {
-  max-width: 800px;
-  margin: auto; }
-
-.image-block img {
-  width: 100%;
-  margin: 0; }
-
-.image-block img:hover {
-  cursor: pointer; }
