@@ -109,6 +109,7 @@ main {
 #content img {
   display: inline-block;
   width: auto;
+  height: 500px;
   margin: 5px; }
 
 .image-block {

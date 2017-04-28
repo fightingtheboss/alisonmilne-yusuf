@@ -3,5 +3,5 @@ title: Gallery
 ---
 
 <% data.images.each do |i| %>
-  <%= link_to(image_tag(i.image), "/#{i.url}.html") %>
+  <%= link_to(image_tag("photos/#{i.image}"), "/#{i.url}.html") %>
 <% end %>

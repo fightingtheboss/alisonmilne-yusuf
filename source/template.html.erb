@@ -1,5 +1,5 @@
 <div class="image-block">
-  <%= image_tag image.image, onclick: "togglePlay()" %>
+  <%= image_tag "photos/#{image.image}", onclick: "togglePlay()" %>
   <% content_tag :audio, :controls => "true", :src => "audio/#{image.audio}" do %>
     Your browser does not support <code>audio</code> elements
   <% end %>
