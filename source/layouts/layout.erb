@@ -23,6 +23,10 @@
       <main>
         <header id="title-header">
           <h1><%= current_page.data.title || image.title %></h1>
+          <% if current_page.data.title %>
+            <p>Listen along as Yusuf Aksoy takes you through the streets of Konya</p>
+            <p>Please click on the images below</p>
+          <% end %>
         </header>
         <section id="content">
           <%= yield %>

@@ -95,6 +95,10 @@ main {
   margin: 0 0 0.25em 0;
 }
 
+#title-header > p {
+  font-size: 1rem;
+}
+
 #title-header::after {
   content: "";
   border-bottom: 3px solid #E0E0E0;
