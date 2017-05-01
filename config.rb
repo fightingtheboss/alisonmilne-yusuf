@@ -47,7 +47,7 @@ end
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
-  set :http_prefix, '/alisonmilne-yusuf'
+  # set :http_prefix, '/alisonmilne-yusuf'
   ignore '/template.html'
 #   activate :minify_css
 #   activate :minify_javascript
