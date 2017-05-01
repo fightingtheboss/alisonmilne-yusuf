@@ -1,8 +1,8 @@
 [
-  {"image" : "mother_and_daughter_on_bus.jpg", "audio" : "mother_and_daughter_on_bus.mp3", "url" : "mother-and-daughter-on-bus", "title" : "On The Bus"},
+  {"image" : "mother_and_daughter_on_bus.jpg", "audio" : "mother_and_daughter_on_bus.mp3", "url" : "on-the-bus", "title" : "On The Bus"},
   {"image" : "a_juvenile_apprentice_of_a_carpenter.jpg", "audio" : "a_juvenile_apprentice_of_a_carpenter.mp3", "url" : "apprentice-of-a-carpenter", "title" : "A Juvenile Apprentice of a Carpenter"},
   {"image" : "alice.jpg", "audio" : "alice.mp3", "url" : "alice", "title" : "Alice"},
-  {"image" : "motorbike_42.jpg", "audio" : "motorbike_42.mp3", "url" : "motorbike-42", "title" : "Motorbike"},
+  {"image" : "motorbike_42.jpg", "audio" : "motorbike_42.mp3", "url" : "motorbike", "title" : "Motorbike"},
   {"image" : "delivery.jpg", "audio" : "delivery.mp3", "url" : "delivery", "title" : "Delivery"},
   {"image" : "syrian_refugees_in_ruins.jpg", "audio" : "syrian_refugees_in_ruins.mp3", "url" : "child-refugees-in-ruins", "title" : "Child Refugees in Ruins"},
   {"image" : "siblings.jpg", "audio" : "siblings.mp3", "url" : "siblings", "title" : "Siblings"},
@@ -16,9 +16,9 @@
   {"image" : "little_women.jpg", "audio" : "little_women.mp3", "url" : "little-women", "title" : "Little Women"},
   {"image" : "boundaries.jpg", "audio" : "boundaries.mp3", "url" : "boundaries", "title" : "Boundaries"},
   {"image" : "safe_from_harm.jpg", "audio" : "safe_from_harm.mp3", "url" : "safe-from-harm", "title" : "Safe From Harm"},
-  {"image" : "syrian_refugee_by_the_sea.jpg", "audio" : "syrian_refugee_by_the_sea.mp3", "url" : "refugee-by-the-sea", "title" : "Cast Away"},
+  {"image" : "syrian_refugee_by_the_sea.jpg", "audio" : "syrian_refugee_by_the_sea.mp3", "url" : "cast-away", "title" : "Cast Away"},
   {"image" : "colours_istanbul.jpg", "audio" : "colours_istanbul.mp3", "url" : "colours-istanbul", "title" : "Colours, Istanbul"},
-  {"image" : "mamas_little_helper_2.jpg", "audio" : "mamas_little_helper_2.mp3", "url" : "mamas-helper", "title" : "Mama's Helper II"},
+  {"image" : "mamas_little_helper_2.jpg", "audio" : "mamas_little_helper_2.mp3", "url" : "mamas-helper-ii", "title" : "Mama's Helper II"},
   {"image" : "romani_girl.jpg", "audio" : "romani_girl.mp3", "url" : "romani-girl", "title" : "Romani Girl"},
-  {"image" : "syrian_girl_with_headscarf.jpg", "audio" : "syrian_girl_with_headscarf.mp3", "url" : "syrian-girl", "title" : "Syrian Girl with Headscarf"}
+  {"image" : "syrian_girl_with_headscarf.jpg", "audio" : "syrian_girl_with_headscarf.mp3", "url" : "syrian-girl-with-headscarf", "title" : "Syrian Girl with Headscarf"}
 ]
